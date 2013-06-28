@@ -38,7 +38,6 @@ class Users extends CI_Model
 							'password'	=> $this->input->post('password'),
 							'email'		=> $this->input->post('email'),
 							'conf_code'	=> $conf_code,
-							'company'	=> $this->input->post('company')
 						);
 						
 		$this->db->insert('temp_users', $values);
@@ -58,7 +57,7 @@ class Users extends CI_Model
 							'username'	=> $result->username,
 							'password'	=> $result->password,
 							'email'		=> $result->email,
-							'company'	=> $result->company
+							
 						);
 						
 			$this->db->insert('users', $values);

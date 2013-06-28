@@ -41,11 +41,6 @@ class Register extends CI_Controller
 					'rules' => 'trim|required'
 				),
 				array(
-					'field' => 'company',
-					'label' => 'Company or Organization',
-					'rules' => 'trim|required|min_length[5]|max_length[50]|xss_clean'
-				),
-				array(
 					'field' => 'email',
 					'label' => 'Email',
 					'rules' => 'trim|required|valid_email'

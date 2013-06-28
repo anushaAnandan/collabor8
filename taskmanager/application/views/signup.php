@@ -6,13 +6,10 @@
 
 <body>
 <?php echo validation_errors(); ?> 
-<?php echo form_open('register/temp_signup'); ?> 
+<?php echo form_open('http://localhost/index.php/register/temp_signup'); ?> 
 
   <p>Username: 
     <input type="text" name="username">
-  </p>
-  <p>Company/Organization: 
-    <input type="text" name="company">
   </p>
   <p>Email: 
       <input type="email" name="email">
