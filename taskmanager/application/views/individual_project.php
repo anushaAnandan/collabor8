@@ -43,6 +43,7 @@
         <?php echo '<a href="http://localhost/taskmanager/index.php/todo_controller/task_list/'.$project_info['project_id'].'">Tasks</a>';?>
         <?php echo '<a href="http://localhost/taskmanager/index.php/discussion_controller/topics/'.$project_info['project_id'].'">Discussions</a>';?>
         <?php echo '<a href="http://localhost/taskmanager/index.php/users_controller/get_activities/'.$project_info['project_id'].'">Activities</a>';?>
+		<?php echo '<a href="http://localhost/taskmanager/index.php/file_controller/files_list/'.$project_info['project_id'].'">Files</a>';?>
     </body>
           
     
